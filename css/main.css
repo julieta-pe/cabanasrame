@@ -1,0 +1,367 @@
+/*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'Poiret One', cursive;
+  overflow: none;
+  
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+
+section#info{
+  min-height: 105vh;
+  margin-top: 40px;
+}
+
+body{
+  ;
+}
+.column.logo{
+  display: flex;
+  justify-content: center;  
+  background: #bdb76b;
+}
+p.info{
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.column.info {
+  
+  align-self: center;
+  border: 2px #F0E68C solid;
+  background-color: #F0E68C;
+  padding: 50px;
+}
+.columns.info{
+  border-bottom:#BDB76B solid 10px;
+  
+}
+
+header{
+  background-color: white;
+}
+
+.column.has-text-centered b{
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.column.has-text-centered{
+align-self: flex-end;
+margin: 0px;
+justify-content: center;
+}
+section#ubicacion{
+  background: #bdb76b;
+}
+iframe.mapa{
+  border: 10px solid #F0E68C !important;
+  height: 400px;
+}
+.header{
+ 
+  min-width: 100%;
+  width: 1349px;
+  position: relative;
+}
+
+.columns.a{   
+  min-height: 50vh;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
+  
+
+}
+
+a.navbar-item:hover {
+  color:#bdb76b !important;
+  background-color: black !important;
+}
+.columns.b{   
+  background: #00000073;
+  align-items: baseline;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  position: relative;
+}
+.column.logo{
+ align-self: flex-end;
+}
+
+.column.b{
+ justify-content: center;
+ flex-grow: 0 !important;
+ flex-shrink: 0 !important;
+ padding: 30px;
+}
+.column.a{
+ margin-left: 17px;
+ flex-grow: 0 !important;
+ flex-shrink: 0 !important;
+ display: flex;
+}
+a.navbar-item{
+  width: max-content;
+  color:#bdb76b !important;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+section.pagina1{
+ min-height: 105vh;
+ font-family: 'Oswald', sans-serif;
+ background: url(../img/cabana2.jpeg);
+ background-size: cover;
+}
+img.imagenprincipal{
+  position: absolute;
+  width: 100%;
+  min-width: 1152px;
+  height: 105%;
+}
+.principal-2{
+  position:relative;
+}
+.navbar-item, .navbar-link {
+ color: black;
+}
+
+h1.title{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+}
+p.info{
+  font-family: 'Roboto', sans-serif;
+}
+img.image-logo{
+  height: 500px;
+}
+.column.c , .column.m{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ 
+}
+.column.m{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+h3.confort{
+  height: 20px;
+  justify-self: center;
+  margin: 30px !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #2d2d2d;
+}
+
+
+.imgcocinacomedor{
+  width: 80px;
+  height: 30px;
+  justify-self: center;
+  align-self: center;
+  margin: 0 auto;
+
+}
+img.confort{
+  height: 35px;
+  width: 35px;
+}
+section#confort{
+  min-height: 100vh;
+  background-color: #BDB76B;
+  border: rgb(167, 152, 65) solid 10px;
+}
+.columns.x,.columns.c{
+  margin-bottom: 0px;
+  min-height: 50vh;}
+  .columns.x{
+    border-bottom: 10px solid #F0E68C;
+  }
+  .a{
+    height: 90px !important;
+    justify-self: center;
+    align-self: center;
+  }
+* {
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	background:#f2f2f2;
+}
+ 
+.main {
+	width:90%;
+	min-width:1000px;
+	margin:20px auto;
+}
+ 
+.slides {
+	width:100%;
+}
+ 
+.slides img {
+	width:100%;
+}
+ 
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+ 
+.slidesjs-pagination li {
+	float:left;
+}
+ 
+.slidesjs-pagination li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+ 
+.slidesjs-pagination li a:hover {
+	background:#000;
+}
+ 
+.slides .active {
+	background:#000;
+}
+ 
+.slidesjs-navigation{
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:13.5px 20px;
+	float:right;
+}
+section.hero.is-medium.has-carousel{
+  height: 100vh; 
+ margin: 100px;
+}
+.Contacto img {
+  width: 40px;
+  height:40px;
+  margin: 10px
+}
+.Contacto a{
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+}
+ 
+.Contacto a:hover{
+  
+  font-weight: 700;
+  color: gray;
+}
+
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10
+{
+  width: 100%;
+  min-width: 100%;
+  max-height: 635px;
+  height: 1253px;
+}
+.slider-navigation-next{
+  margin-right:20px;
+
+}
+.slider-navigation-previous {
+  margin-left:20px;
+}
+section#contacto{
+display: flex;
+  margin: 25px;
+}
+.subtitle{
+  background: #F0E68C;
+  width: 370px;
+}
+
+.button.is-primary {
+  background-color: #bdb76b !important;
+  border-color: transparent;
+  color: #fff;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #bdb76b !important;
+  right: 1.125em;
+  z-index: 4;
+}
+.futer{
+  text-align: center;
+}
+section.footer{
+  height: 7vh;
+  background: #ad9f0078;
+  font-size: small;
+  font-weight: bold;
+
+}
+.column.container{
+  text-align: center;
+}
+a{
+    color: black !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+

@@ -36,9 +36,6 @@ section#info{
   margin-top: 40px;
 }
 
-body{
-  ;
-}
 .column.logo{
   display: flex;
   justify-content: center;  
@@ -360,8 +357,3 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-
-
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
-
